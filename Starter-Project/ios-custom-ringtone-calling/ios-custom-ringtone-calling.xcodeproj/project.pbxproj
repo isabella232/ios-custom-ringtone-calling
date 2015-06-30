@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E18FAB1B41C9790053C855 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FAA1B41C9790053C855 /* main.m */; };
+		29E18FAE1B41C9790053C855 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FAD1B41C9790053C855 /* AppDelegate.m */; };
+		29E18FB11B41C9790053C855 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FB01B41C9790053C855 /* ViewController.m */; };
+		29E18FB41B41C9790053C855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E18FB21B41C9790053C855 /* Main.storyboard */; };
+		29E18FB61B41C9790053C855 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29E18FB51B41C9790053C855 /* Images.xcassets */; };
+		29E18FB91B41C9790053C855 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E18FB71B41C9790053C855 /* LaunchScreen.xib */; };
+		29E18FC51B41C9790053C855 /* ios_custom_ringtone_callingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FC41B41C9790053C855 /* ios_custom_ringtone_callingTests.m */; };
+		29E18FD31B41CA460053C855 /* UserRingtoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FD21B41CA460053C855 /* UserRingtoneViewController.m */; };
+		29E18FD61B41CA720053C855 /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E18FD51B41CA720053C855 /* CallViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E18FBF1B41C9790053C855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E18F9D1B41C9780053C855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E18FA41B41C9780053C855;
+			remoteInfo = "ios-custom-ringtone-calling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29E18FA51B41C9780053C855 /* ios-custom-ringtone-calling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-custom-ringtone-calling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E18FA91B41C9790053C855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E18FAA1B41C9790053C855 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E18FAC1B41C9790053C855 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29E18FAD1B41C9790053C855 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29E18FAF1B41C9790053C855 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29E18FB01B41C9790053C855 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29E18FB31B41C9790053C855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29E18FB51B41C9790053C855 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29E18FB81B41C9790053C855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29E18FBE1B41C9790053C855 /* ios-custom-ringtone-callingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-custom-ringtone-callingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E18FC31B41C9790053C855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E18FC41B41C9790053C855 /* ios_custom_ringtone_callingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_custom_ringtone_callingTests.m; sourceTree = "<group>"; };
+		29E18FD11B41CA460053C855 /* UserRingtoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRingtoneViewController.h; sourceTree = "<group>"; };
+		29E18FD21B41CA460053C855 /* UserRingtoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRingtoneViewController.m; sourceTree = "<group>"; };
+		29E18FD41B41CA720053C855 /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		29E18FD51B41CA720053C855 /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E18FA21B41C9780053C855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E18FBB1B41C9790053C855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E18F9C1B41C9780053C855 = {
+			isa = PBXGroup;
+			children = (
+				29E18FA71B41C9780053C855 /* ios-custom-ringtone-calling */,
+				29E18FC11B41C9790053C855 /* ios-custom-ringtone-callingTests */,
+				29E18FA61B41C9780053C855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E18FA61B41C9780053C855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E18FA51B41C9780053C855 /* ios-custom-ringtone-calling.app */,
+				29E18FBE1B41C9790053C855 /* ios-custom-ringtone-callingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E18FA71B41C9780053C855 /* ios-custom-ringtone-calling */ = {
+			isa = PBXGroup;
+			children = (
+				29E18FAC1B41C9790053C855 /* AppDelegate.h */,
+				29E18FAD1B41C9790053C855 /* AppDelegate.m */,
+				29E18FAF1B41C9790053C855 /* ViewController.h */,
+				29E18FB01B41C9790053C855 /* ViewController.m */,
+				29E18FD11B41CA460053C855 /* UserRingtoneViewController.h */,
+				29E18FD21B41CA460053C855 /* UserRingtoneViewController.m */,
+				29E18FD41B41CA720053C855 /* CallViewController.h */,
+				29E18FD51B41CA720053C855 /* CallViewController.m */,
+				29E18FB21B41C9790053C855 /* Main.storyboard */,
+				29E18FB51B41C9790053C855 /* Images.xcassets */,
+				29E18FB71B41C9790053C855 /* LaunchScreen.xib */,
+				29E18FA81B41C9790053C855 /* Supporting Files */,
+			);
+			path = "ios-custom-ringtone-calling";
+			sourceTree = "<group>";
+		};
+		29E18FA81B41C9790053C855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E18FA91B41C9790053C855 /* Info.plist */,
+				29E18FAA1B41C9790053C855 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E18FC11B41C9790053C855 /* ios-custom-ringtone-callingTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E18FC41B41C9790053C855 /* ios_custom_ringtone_callingTests.m */,
+				29E18FC21B41C9790053C855 /* Supporting Files */,
+			);
+			path = "ios-custom-ringtone-callingTests";
+			sourceTree = "<group>";
+		};
+		29E18FC21B41C9790053C855 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E18FC31B41C9790053C855 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E18FA41B41C9780053C855 /* ios-custom-ringtone-calling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E18FC81B41C9790053C855 /* Build configuration list for PBXNativeTarget "ios-custom-ringtone-calling" */;
+			buildPhases = (
+				29E18FA11B41C9780053C855 /* Sources */,
+				29E18FA21B41C9780053C855 /* Frameworks */,
+				29E18FA31B41C9780053C855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-custom-ringtone-calling";
+			productName = "ios-custom-ringtone-calling";
+			productReference = 29E18FA51B41C9780053C855 /* ios-custom-ringtone-calling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E18FBD1B41C9790053C855 /* ios-custom-ringtone-callingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E18FCB1B41C9790053C855 /* Build configuration list for PBXNativeTarget "ios-custom-ringtone-callingTests" */;
+			buildPhases = (
+				29E18FBA1B41C9790053C855 /* Sources */,
+				29E18FBB1B41C9790053C855 /* Frameworks */,
+				29E18FBC1B41C9790053C855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E18FC01B41C9790053C855 /* PBXTargetDependency */,
+			);
+			name = "ios-custom-ringtone-callingTests";
+			productName = "ios-custom-ringtone-callingTests";
+			productReference = 29E18FBE1B41C9790053C855 /* ios-custom-ringtone-callingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E18F9D1B41C9780053C855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ali Minty";
+				TargetAttributes = {
+					29E18FA41B41C9780053C855 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					29E18FBD1B41C9790053C855 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 29E18FA41B41C9780053C855;
+					};
+				};
+			};
+			buildConfigurationList = 29E18FA01B41C9780053C855 /* Build configuration list for PBXProject "ios-custom-ringtone-calling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29E18F9C1B41C9780053C855;
+			productRefGroup = 29E18FA61B41C9780053C855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E18FA41B41C9780053C855 /* ios-custom-ringtone-calling */,
+				29E18FBD1B41C9790053C855 /* ios-custom-ringtone-callingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E18FA31B41C9780053C855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E18FB41B41C9790053C855 /* Main.storyboard in Resources */,
+				29E18FB91B41C9790053C855 /* LaunchScreen.xib in Resources */,
+				29E18FB61B41C9790053C855 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E18FBC1B41C9790053C855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E18FA11B41C9780053C855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E18FD61B41CA720053C855 /* CallViewController.m in Sources */,
+				29E18FB11B41C9790053C855 /* ViewController.m in Sources */,
+				29E18FAE1B41C9790053C855 /* AppDelegate.m in Sources */,
+				29E18FAB1B41C9790053C855 /* main.m in Sources */,
+				29E18FD31B41CA460053C855 /* UserRingtoneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E18FBA1B41C9790053C855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E18FC51B41C9790053C855 /* ios_custom_ringtone_callingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E18FC01B41C9790053C855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E18FA41B41C9780053C855 /* ios-custom-ringtone-calling */;
+			targetProxy = 29E18FBF1B41C9790053C855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E18FB21B41C9790053C855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E18FB31B41C9790053C855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29E18FB71B41C9790053C855 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E18FB81B41C9790053C855 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E18FC61B41C9790053C855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E18FC71B41C9790053C855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E18FC91B41C9790053C855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-custom-ringtone-calling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29E18FCA1B41C9790053C855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-custom-ringtone-calling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29E18FCC1B41C9790053C855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios-custom-ringtone-callingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-custom-ringtone-calling.app/ios-custom-ringtone-calling";
+			};
+			name = Debug;
+		};
+		29E18FCD1B41C9790053C855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ios-custom-ringtone-callingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-custom-ringtone-calling.app/ios-custom-ringtone-calling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E18FA01B41C9780053C855 /* Build configuration list for PBXProject "ios-custom-ringtone-calling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E18FC61B41C9790053C855 /* Debug */,
+				29E18FC71B41C9790053C855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E18FC81B41C9790053C855 /* Build configuration list for PBXNativeTarget "ios-custom-ringtone-calling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E18FC91B41C9790053C855 /* Debug */,
+				29E18FCA1B41C9790053C855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E18FCB1B41C9790053C855 /* Build configuration list for PBXNativeTarget "ios-custom-ringtone-callingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E18FCC1B41C9790053C855 /* Debug */,
+				29E18FCD1B41C9790053C855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29E18F9D1B41C9780053C855 /* Project object */;
+}
