@@ -8,7 +8,7 @@ In this tutorial, we will be creating an app that lets you call a person using a
 
 ![ringtone](img/Ringtone.png)  ![call-out](img/Call-Out.png)
 
-A starter project has been provided with the appropriate app layout. You can download it from [Github](#link#). The Storyboard should look something like this:
+A starter project has been provided with the appropriate app layout. You can download it from [Github](https://github.com/sinch/ios-custom-ringtone-calling). The Storyboard should look something like this:
 
 ![storyboard](img/Storyboard.png)
 
@@ -230,7 +230,7 @@ Finally, go to **UserRingtoneViewController.m**. In the method `CallAction`, rep
 [controller setUrlString:self.RingtoneTextField.text];
 ```
 
-That's it! You should be able to test the app out. There's also a completed version of this app on [Github](#link#).
+That's it! You should be able to test the app out. There's also a completed version of this app on [Github](https://github.com/sinch/ios-custom-ringtone-calling).
 
 ![login](img/Login.png)  ![call-in](img/Call-In.png)
 
