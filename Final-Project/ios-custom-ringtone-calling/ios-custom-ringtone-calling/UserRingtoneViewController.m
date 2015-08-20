@@ -41,11 +41,8 @@
 - (IBAction)CallAction:(id)sender {
     if (![self.UsernameTextField.text isEqualToString:@""]) {
         CallViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"callScreen"];
-        NSLog(@"1");
         NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys:self.RingtoneTextField.text, @"url", nil];
-        NSLog(@"2");
         id<SINCall> call = [self.callClient callUserWithId:self.UsernameTextField.text headers:dict];
-        NSLog(@"3");
         [controller setCall:call];
         [controller setContact:self.UsernameTextField.text];
         [controller setUrlString:self.RingtoneTextField.text];
