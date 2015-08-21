@@ -107,7 +107,7 @@ In **UserRingtoneViewController.m**, add implement the following method:
 }
 ```
 
-and add to the method `` to make it look like this:
+and add to the method `CallAction:` to make it look like this:
 
 
 ```objective-c
