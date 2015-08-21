@@ -12,13 +12,13 @@ A starter project has been provided with the appropriate app layout. You can dow
 
 ![storyboard](img/Storyboard.png)
 
-# 1. Setup
+## 1. Setup
 
 First, go to your [Sinch Dashboard](https://www.sinch.com/dashboard/) and create a new app. Take note of the application key and secret.
 
 Now, use Terminal to navigate to your project directory, containing the appropriate **Podfile**, and run `pod install`. You will need to work out of the  XCode workspace that has now been created.
 
-# 2. Using SinchService
+## 2. Using SinchService
 
 Head over to **AppDelegate.h** and add the following import statements:
 
@@ -99,7 +99,7 @@ Next, add these imports to **UserRingtoneViewController.h**:
 #import "CallViewController.h"
 ```
 
-In ****, add implement the following method:
+In **UserRingtoneViewController.m**, add implement the following method:
 
 ```objective-c
 - (id<SINCallClient>)callClient {
@@ -148,7 +148,7 @@ Finally, add the following properties:
 ```
 
 
-# 3. Making Calls with Ringtones
+## 3. Making Calls with Ringtones
 
 We'll want a way to play a sound file from a URL. Add the following property to **CallViewController.h** to add an AVPlayer object that can play URL sound files:
 
